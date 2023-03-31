@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  overflow-x: hidden;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  width: 570px;
+  margin: 0 auto 45px;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
